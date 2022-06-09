@@ -61,6 +61,9 @@ public class Product {
 
     @Override
     public String toString() {
-        return super.toString();
+        return "Numéro de l'article : " + this.number + "\n" +
+                "Nom                : " + this.name + "\n" +
+                "Quantité en stock  : " + this.stockUnit + "\n" +
+                "Prix               : " + this.unitPrice;
     }
 }
